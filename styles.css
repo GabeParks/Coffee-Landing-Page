@@ -1,0 +1,125 @@
+:root {
+    --color-primary: cyan;
+    --color-secondary: dark;
+    --color-text: cyan;
+    --color-bg-light: black;
+    --color-white: black;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Times New Roman;
+    color: cyan;
+    line-height: 1.2;
+}
+
+footer {
+    color: cyan;
+    background: black;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.section-padding {
+    padding-block: 20px;
+}
+
+.bg-light {
+    background-color: black;
+}
+
+.btn {
+    background-color: cyan;
+    color: black;
+}
+
+.btn:hover {
+    background-color: teal;
+}
+
+
+.navbar {
+    background-color: black;
+    padding-block: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: cyan;
+    background-color: black;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+        url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/rockcms/2022-12/221214-laptop-cafe-stock-mn-0915-71c3bf.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+.hero-overlay {
+    width: 100%;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.menu-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 60px;
+    border-radius: 120px;
+    background-color: black;
+    color: cyan;
+}
+
+.tab.active {
+    background-color: cyan;
+    color: black;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+.menu-item {
+    background: black;
+    border: 10px solid white;
+    border-radius: 8px;
+}
+
+
+
+.map-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cyan;
+}
