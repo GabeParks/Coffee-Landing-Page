@@ -24,7 +24,7 @@ footer {
 
 img {
     max-width: 100%;
-    display: block;
+    display: flex;
 }
 
 .container {
